@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    min-width: 320px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(216, 217, 221);
+}
+
+.fio {
+    flex: 80%;
+    text-align: center;
+}
+  
+.name{
+    font-size: 50px;
+    margin: 10px;
+}
+  
+.proff{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.my-photo{
+    max-width: 180px;
+    max-height: 180px;
+    width: 30vw;
+    height: 30vw;
+    flex: auto;
+}
+
+main{
+    display: flex;
+}
+
+article {
+    flex: auto;
+    background-color: darkseagreen;
+    padding: 10px 10px 60px;
+}
+
+.side-content{
+    flex: auto;
+    /* min-width: 234px;
+    max-width: 234px; */
+    background-color: cornflowerblue;
+    padding: 10px 10px 60px;
+}
+
+aside {
+    flex: auto;
+    /* min-width: 234px;
+    max-width: 234px; */
+    background-color: cornflowerblue;
+    padding: 10px 10px 60px;
+}
+
+article > h4{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+}
+
+section > h3{
+    font-size: 25px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    border-bottom: 2px solid black;
+}
+
+section > p{
+    font-size: 22px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contacts{
+    padding-left: 0px;
+}
+
+.contacts > li{
+    list-style: none;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.contacts > li > i {
+    position: relative;
+    top: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:dimgray;
+}
+
+.footer-year {
+    width: 100px;
+    text-align: center;
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .footer-git {
+    font-size: 25px;
+  }
+
+  .footer-rs {
+    width: 100px;
+    position: relative;
+  }
+
+p > a > img{
+    width: 20px;
+    height: 20px;
+}
+
+.project-description{
+    font-size: 20px;
+    margin: 5px;
+}
